@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    padding: 15px;
+    height: 625px;
+    clear: both;
+}
+.section-one{
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 75%;
+    margin: 10%;
+    padding: 30px;
+}
+#intro-content{
+    padding-top: 100px;
+}
+h2{
+    font-size: 35px;
+}
+.myname{
+    font-size: 50px;
+    color: #ff0040;
+    margin-bottom: 0;
+    margin-top: -40px;
+}
+.intro{
+    text-align: justify;
+    color: darkslategray;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#0000ff, #010188);
+    font-weight: bold;
+    color: white;
+    padding:10px 40px;
+    border-radius: 5px;
+}
+.button-link:hover{
+    background-image: linear-gradient(45deg,#ff0000, #b92a06);
+}
+
+.section-two{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#second-content{
+    padding-top: 150px;
+    margin-left: 15px;
+    text-align: justify;
+}
+.section-three{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest-work{
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+}
+.latest-work img{
+    width: 100%;
+}
+.latest{
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 50px;
+}
+.section-four{
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#client-say{
+    text-align: center;
+    margin-top: 0px;
+}
+.one-third{
+    width: 29%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px gray;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.one-third img{
+    width: 120px;
+    border-radius: 50%;
+    height: 120px;
+    border: 5px solid #ff0040;
+    margin-top: 10px;
+}
+#contact-mail{
+    line-height: 0;
+    text-align: center;
+    display: inline-block;
+    background-color: #ff0040;
+    padding: 10px 120px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30;
+}
+footer{
+    text-align: center;
+    color: gray;
+}
+
+
