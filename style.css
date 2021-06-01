@@ -1,11 +1,41 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 section{
     padding: 15px;
-    height: 625px;
+    height: 600px;
     clear: both;
+}
+nav{
+    top: 0;
+    position: sticky;
+    background-color: black;
+    padding: 1px;
+}
+.navigation ul{
+    list-style: none;
+    text-align: center;
+}
+.navigation li{
+    display: inline-block;
+    
+}
+.navigation a{
+    text-decoration: none;
+    padding: 3px 15px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    color: #a3a2a2;
+    font-weight: bold;
+}
+.navigation a:hover{
+    color: white;
+    background-color: #ff0040;
 }
 .section-one{
     background-image: url("img/header-bg.png");
@@ -57,6 +87,11 @@ h2{
     background-image: url("img/biography-bg.png");
     background-repeat: no-repeat;
     background-size:cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-two img{
+    margin-top: 0px;
 }
 #second-content{
     padding-top: 150px;
