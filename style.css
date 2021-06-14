@@ -161,3 +161,7 @@ footer{
     text-align: center;
     color: gray;
 }
+footer a{
+    text-decoration: none;
+    color: orangered;
+}
